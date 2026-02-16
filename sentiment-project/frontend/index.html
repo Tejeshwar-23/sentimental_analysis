@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <main class="container">
+        <header>
+            <h1>Sentiment Analysis</h1>
+            <p>Analyze the emotion behind your text with precision.</p>
+        </header>
+
+        <section class="glass-card">
+            <div class="input-group">
+                <label for="text-input">Enter Text for Analysis</label>
+                <textarea id="text-input" placeholder="How are you feeling today?..."></textarea>
+            </div>
+
+            <button id="analyze-btn">
+                <span>Analyze Sentiment</span>
+                <div class="loader" id="loader"></div>
+            </button>
+
+            <div id="result-container" class="result-container hidden">
+                <div class="divider"></div>
+                <div class="result-box">
+                    <span class="label">Prediction:</span>
+                    <span id="prediction-text" class="prediction"></span>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Sentiment Analysis Pro. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
