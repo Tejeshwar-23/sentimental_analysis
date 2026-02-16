@@ -1,0 +1,37 @@
+Prediction: 0
+Decision: -0.7027391138774743
+Intercept: -0.8949769325528399
+Word: i, Not in features
+Word: feel, Weight: 0.1507411297257589
+Word: so, Not in features
+Word: lonely, Weight: 0.11442766751823237
+Word: and, Not in features
+Word: everything, Not in features
+Word: seems, Not in features
+Word: so, Not in features
+Word: dark, Weight: 0.2585922473050871
+Word: today, Weight: -0.24019039315560392
+
+Top 10 Depressive words:
+depression: 13.981219360722543
+depressionanxiety: 2.957173370847561
+anxiety: 2.534451736408317
+emoji: 2.395068815905104
+depressionâ: 2.3125247401352915
+anxietydepression: 2.1676507391316746
+capitalism: 1.8157799446306766
+causes: 1.6240436331604884
+mild: 1.6150223815850486
+depressionemoji: 1.5970238730576747
+
+Top 10 Non-Depressive words:
+amp: -0.7715721149914329
+lol: -0.759665325150935
+haha: -0.6933110308550372
+random: -0.5975464560710388
+hey: -0.5902629040177371
+amazing: -0.5694985861882741
+thanks: -0.5089197598835271
+hmm: -0.5085624205316129
+ring: -0.5002999402235717
+test: -0.48931788162042245

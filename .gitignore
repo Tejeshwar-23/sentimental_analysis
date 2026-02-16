@@ -1,8 +1,0 @@
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-.vscode/
-.DS_Store
-sentiment_analysis.ipynb
-diagnose_model.py
-diagnose_log.txt
